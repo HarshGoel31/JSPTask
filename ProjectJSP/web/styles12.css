@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1 Feb, 2020, 6:37:46 PM
+    Author     : a
+*/
+
+
+body
+{
+margin: 0;
+
+font-family: 'Merriweather', serif;
+color:#40514e;
+}
+.align1
+{
+    margin:0 520px 0 500px;
+}
+h1
+{
+
+  font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+font-size: 5.625rem;
+margin: 50px auto 0 auto;
+color: #21bf73;
+
+
+}
+.para1{
+  font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+color: green;
+text-align: center;
+}
+form{
+    background-color: #deff8b;
+}
+h3
+{
+  font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+color:#11999E;
+}
+.size
+{
+  font-family: 'Montserrat', sans-serif;
+font-size: 1.5em;
+color:#11999E;
+}
+
+a{
+  color:#11999E;
+}
+.normal
+{
+  font-weight: normal;
+}
+
+.pro
+{
+  text-decoration: underline;
+}
+
+hr{
+  border-style:none;
+  border-top-style: dotted;
+margin:5px 0;
+border-width: 5px;
+border-color: grey;
+  width:4%;
+}
+
+
+
+
+.myButton {
+	background-color:#11cdd4;
+	border-radius:8px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	padding:10px 20px;
+	text-decoration:none;
+        margin:20px;
+}
+.myButton:hover {
+	background-color:#30e3cb;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.footer-link{
+  text-decoration: none;
+  margin:10px 20px 10px 20px;
+}
+a:hover{
+  color:#eaf6f6;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles12.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    </head>
+    <body>
+        
+        <h2 class="para1">REGISTRATION FORM</h2>
+    <form action="DetailsForm.jsp" method="post">
+      <div class="align1">  Name : <input type="text" placeholder="enter your name" name="txtName" pattern="[A-Za-z]{2,30}" required>
+        <br><br>
+        Phone : <input  type="text" placeholder="enter your number" pattern="[789][0-9]{9}" name="txtPhone" title="number should be of 10 numbers and must start with only 7,8,9" ><br><br>
+        E-mail : <input type="email" placeholder="enter your email" name="txtMail" pattern=".+@(gmail|yahoo|outlook)\.com$">
+        <br><br>
+        Gender : <input type="radio" value="Male" name="txtGender">Male
+        <input type="radio" value="Female" name="txtGender">Female<br><br>
+        Password : <input  type="password"  placeholder="enter your password" name="txtPass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"><br><br>
+        Confirm Password : <input  type="password" placeholder="confirm password" title="Must match the above password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" ><br><br>
+        <input type="submit" value="Submit" class="myButton"><input type="reset"  value="Reset"  class="myButton"/>
+    </div></form>
+    </body>
+</html>
